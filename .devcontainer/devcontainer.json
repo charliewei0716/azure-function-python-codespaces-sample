@@ -11,6 +11,10 @@
         "ghcr.io/devcontainers/features/azure-cli:1": {
           "version": "latest",
           "installBicep": true
+        },
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "18",
+            "nodeGypDependencies": false
         }
     },
     "forwardPorts": [
