@@ -32,7 +32,8 @@
             ]
         } 
     },
-    "postCreateCommand": "python3 -m venv .venv code --reload-window",
+    "postCreateCommand": "python3 -m venv .venv",
+    "postStartCommand": "code --reload-window",
     "postAttachCommand": ". .venv/bin/activate",
     "remoteUser": "vscode"
 }
